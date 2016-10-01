@@ -14,3 +14,19 @@
 http://php.net/manual/zh/install.windows.manual.php  
 
 https://www.nginx.com/resources/wiki/start/topics/examples/phpfastcgionwindows/
+
+
+```sh
+  # [nginx news](http://nginx.org/)
+
+2016-04-06  
+## nginx-1.9.14
+
+
+2016-05-31	  
+## nginx-1.10.1 stable
+
+
+2016-09-13	  
+## nginx-1.11.4 mainline
+```
