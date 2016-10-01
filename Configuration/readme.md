@@ -2,8 +2,6 @@
 
 ## [Setting Up FastCGI Proxying](http://nginx.org/en/docs/beginners_guide.html)
 
-## [Installing PHP 7.0.0 on Windows](https://www.youtube.com/watch?v=D-wFWUMHcUA)
-
 
 ## [How to install PHP on Windows 10 with Apache](https://www.youtube.com/watch?v=HjK4EqSPD_8)
 
