@@ -38,7 +38,7 @@ start nginx.exe
 nginx -s stop/quit/reopen/reload 
 ```  
 ### CMD 退出 **所有PID** Nginx  
-![Nginx taskkill all PID.PNG](Nginx taskkill all PID.PNG)  
+![Nginx taskkill all PID.PNG](https://raw.githubusercontent.com/xgqfrms-GitHub/Nginx/master/Nginx%20%20taskkill%20all%20PID.PNG)  
 
 ```sh
 # To run the Nginx web server, launch the “Command Prompt” and issue these commands:
@@ -59,7 +59,7 @@ c:\nginx>start nginx.exe
 ```
 ![Nginx-path-error.PNG](Nginx-path-error.PNG)  
 ![Nginx-start-error.PNG](Nginx-start-error.PNG)  
-![Nginx taskkill all PID.PNG](Nginx taskkill all PID.PNG) 
+![Nginx taskkill all PID.PNG](https://raw.githubusercontent.com/xgqfrms-GitHub/Nginx/master/Nginx%20%20taskkill%20all%20PID.PNG) 
 
 
 ## [Nginx with PHP and MySQL on Windows 7](http://www.chanhvuong.com/2809/nginx-with-php-and-mysql-on-windows-7/) 
