@@ -37,8 +37,8 @@ start nginx.exe
 ```sh
 nginx -s stop/quit/reopen/reload 
 ```  
-### CMD 退出 **所有PID** Nginx
-![Nginx taskkill all PID.PNG](Nginx taskkill all PID.PNG) 
+### CMD 退出 **所有PID** Nginx  
+![Nginx taskkill all PID.PNG](Nginx taskkill all PID.PNG)  
 
 ```sh
 # To run the Nginx web server, launch the “Command Prompt” and issue these commands:
