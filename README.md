@@ -57,5 +57,10 @@ c:\nginx>start nginx.exe
 ```
 ![Nginx-path-error.PNG](Nginx-path-error.PNG)
 ![Nginx-start-error.PNG](Nginx-start-error.PNG)
+![Nginx taskkill all PID.PNG](Nginx taskkill all PID.PNG)
+
+## [Nginx with PHP and MySQL on Windows 7](http://www.chanhvuong.com/2809/nginx-with-php-and-mysql-on-windows-7/)  
+![Nginx with PHP and MySQL on Windows.png](Nginx with PHP and MySQL on Windows.png)
+	
 
 
