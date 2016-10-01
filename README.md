@@ -56,3 +56,6 @@ c:\nginx>start nginx.exe
 # It is not necessary to run the “Command Prompt” as an administrator.
 ```
 ![Nginx-path-error.PNG](Nginx-path-error.PNG)
+![Nginx-start-error.PNG](Nginx-start-error.PNG)
+
+
