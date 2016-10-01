@@ -22,3 +22,6 @@ $ nginx -s reopen
 ```
 
 ![Nginx-CMD.PNG](Nginx-CMD.PNG)
+
+## [Nginx with PHP and MySQL on Windows 7](http://www.chanhvuong.com/2809/nginx-with-php-and-mysql-on-windows-7/)
+![Nginx-CMD.PNG](Nginx-CMD.PNG)
