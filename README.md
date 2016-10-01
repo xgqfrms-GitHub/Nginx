@@ -31,12 +31,14 @@ $ nginx -s reopen
 ```sh
 start nginx.exe 
 ```
-### CMD 启动 Nginx
+### CMD 退出 Nginx
 > 1. 任意目录下
 > 2. 带 -s 参数列表值
 ```sh
 nginx -s stop/quit/reopen/reload 
-```
+```  
+### CMD 退出 **所有PID** Nginx
+![Nginx taskkill all PID.PNG](Nginx taskkill all PID.PNG) 
 
 ```sh
 # To run the Nginx web server, launch the “Command Prompt” and issue these commands:
@@ -55,11 +57,13 @@ c:\nginx>start nginx.exe
 # That separate window will appear and quickly disappear.
 # It is not necessary to run the “Command Prompt” as an administrator.
 ```
-![Nginx-path-error.PNG](Nginx-path-error.PNG)
-![Nginx-start-error.PNG](Nginx-start-error.PNG)
-![Nginx taskkill all PID.PNG](Nginx taskkill all PID.PNG)
+![Nginx-path-error.PNG](Nginx-path-error.PNG)  
+![Nginx-start-error.PNG](Nginx-start-error.PNG)  
+![Nginx taskkill all PID.PNG](Nginx taskkill all PID.PNG) 
 
-## [Nginx with PHP and MySQL on Windows 7](http://www.chanhvuong.com/2809/nginx-with-php-and-mysql-on-windows-7/)  
+
+## [Nginx with PHP and MySQL on Windows 7](http://www.chanhvuong.com/2809/nginx-with-php-and-mysql-on-windows-7/) 
+
 ![Nginx with PHP and MySQL on Windows.png](Nginx with PHP and MySQL on Windows.png)
 	
 
