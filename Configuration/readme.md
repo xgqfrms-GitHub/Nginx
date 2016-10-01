@@ -20,7 +20,7 @@ https://www.nginx.com/resources/wiki/start/topics/examples/phpfastcgionwindows/
 # [nginx news](http://nginx.org/)
 
 2016-04-06  
-## nginx-1.9.14
+## nginx-1.9.14 mainline
 
 
 2016-05-31	  
