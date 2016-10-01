@@ -17,7 +17,7 @@ https://www.nginx.com/resources/wiki/start/topics/examples/phpfastcgionwindows/
 
 
 ```sh
-  # [nginx news](http://nginx.org/)
+# [nginx news](http://nginx.org/)
 
 2016-04-06  
 ## nginx-1.9.14
