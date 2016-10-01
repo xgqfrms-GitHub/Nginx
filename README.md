@@ -46,10 +46,13 @@ c:\>cd \nginx
 # Start Nginx 
 c:\nginx>start nginx.exe
 # c:\nginx>nginx -s stop/quit/reopen/reload 
-Notes:
+# Notes:
 
-Running “c:\nginx\nginx.exe” without changing to the “c:\nginx” directory will fail because Nginx will look for the log and temp subdirectories, which won’t exist under another directory.
-The “start” command will launch Nginx in a separate window; otherwise, Nginx would take control of the current “Command Prompt” window. That separate window will appear and quickly disappear.
-It is not necessary to run the “Command Prompt” as an administrator.
+# Running “c:\nginx\nginx.exe” without changing to the “c:\nginx” directory will fail，
+# because Nginx will look for the log and temp subdirectories, which won’t exist under another directory.
+# The “start” command will launch Nginx in a separate window;
+# otherwise, Nginx would take control of the current “Command Prompt” window. 
+# That separate window will appear and quickly disappear.
+# It is not necessary to run the “Command Prompt” as an administrator.
 ```
 ![Nginx-path-error.PNG](Nginx-path-error.PNG)
