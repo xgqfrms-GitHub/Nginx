@@ -20,3 +20,5 @@ $ nginx -s reload
 $ nginx -s reopen	
 # re-opening log files
 ```
+
+![Nginx-CMD.PNG](Nginx-CMD.PNG)
