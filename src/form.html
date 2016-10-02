@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>CV-Generator: free for every programmer!</title>
+	<link rel="stylesheet" href="http://cdn.?.xyz/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="http://cdn.?.xyz/webfonts/css/font-awesome-4.6.3.min.css">
+	<style>
+		/*color*/
+		.icon-aside{
+		    /*color: #33a9dc;*/
+		    color:rgba(0,255,0,0.7);
+		    /*background-color: rgba(255,255,255,1);*/
+		}
+		.icon-html5 {
+		    color: #f16529;
+		}
+		/*reset css*/
+		body,h1{
+			margin: 0;
+			pading: 0;
+			/*background: rgba(0,0,0,0.7);*/
+		}
+		.header{
+			/*background: rgba(255,255,0,0.7);*/
+			background: url(./images/section-title-bg.png);
+			width: 100%;
+			top: 0;
+			margin: 0 auto;
+			box-sizing: border-box;
+			align-content: center;
+			vertical-align: center;
+			/*text-align: center;*/
+		}
+		.header>h1{
+			text-align: center;
+			color: rgba(255,0,255,0.7);
+		}
+		.header nav ul.nav-ul{
+			background: rgba(0,0,0,0.7);
+			display: block;
+			box-sizing: border-box;
+			width: 80%;
+			margin: auto 5%;
+			height: 56px;
+		}
+		.header nav ul.nav-ul>li{
+			float: left;
+			width: 100px;
+			height: 50px;
+			background: rgba(0,255,0,0.7);
+			margin: auto 30px;
+		}
+		.aside{
+			/*border: 1px solid red;*/
+			background: rgba(0,0,0,0.7);
+			width: 30%;
+			/*float: left;*/
+			float: right;
+			box-sizing: border-box;
+			align-content: center;
+			vertical-align: center;
+		}
+		.aside ul{
+			/**/
+		}
+		.aside ul.fa-ul>li{
+			display: inline-block;
+			width: 100%;
+			height: 50px;
+			margin: 10px;
+		}
+		.main{
+			background: rgba(255,0,255,0.7);
+			width: 60%;
+			margin: auto 5%;
+			/*float: left;*/
+		}
+		.main .section1 div.qr li i{
+			/*background: black;*/
+			color: green;
+			width: 32px;
+			height: 32px;
+			cursor: pointer;
+		}
+		.main .section1 div.qr li i:hover{
+			/*background: black;*/
+			transform: scale(3);
+			transition: all 1s linear 0s;
+		}
+	</style>
+</head>
+<body>
+	<header class="header" role="header">
+		<h1>CV-Generator: free for every programmer!</h1>
+		<nav class="nav" role="nav">
+			<!-- Use fa-ul and fa-li to easily replace default bullets in unordered lists. rocket-->
+			<ul class="fa-ul nav-ul">
+				<li><i class="fa fa-home fa-2x icon-" aria-hidden="true"></i><a href="">Home</a></li>
+				<li><i class="fa fa-wrench fa-2x icon-" aria-hidden="true"></i><a href="">Tools</a></li>
+				<li><i class="fa fa-book fa-2x icon-" aria-hidden="true"></i><a href="">Book</a></li>
+
+				<li><i class="fa fa-diamond fa-2x icon-" aria-hidden="true"></i><a href="">Diamond</a></li>
+				<li><i class="fa fa-newspaper-o fa-2x icon-" aria-hidden="true"></i><a href="">About</a></li>
+				<li><i class="fa fa-rss fa-2x icon-" aria-hidden="true"></i><a href="">RSS</a></li>
+			</ul>
+		</nav>
+	</header>
+	<aside class="aside" role="aside">
+		<ul class="fa-ul">
+			<!-- <i class="fa fa-css3 fa-2x icon-css3 icon-large" aria-hidden="true"></i>  product-hunt-->
+			<li><i class="fa fa-li fa-user fa-lg icon-aside" aria-hidden="true"></i><a href="">基本信息</a></li>
+			<li><i class="fa fa-li fa-briefcase fa-lg icon-aside" aria-hidden="true"></i><a href="">工作经历</a></li>
+			<li><i class="fa fa-li fa-graduation-cap fa-lg icon-aside" aria-hidden="true"></i><a href="">教育经历</a></li>
+			<li><i class="fa fa-li fa-product-hunt fa-lg icon-aside" aria-hidden="true"></i><a href="">项目经验</a></li>
+			<li><i class="fa fa-li fa-picture-o fa-lg icon-aside" aria-hidden="true"></i><a href="">作品展示</a></li>
+			<li><i class="fa fa-li fa-wpforms fa-lg icon-aside" aria-hidden="true"></i><a href="">自我描述</a></li>
+			<li><i class="fa fa-li fa-commenting-o fa-lg icon-aside" aria-hidden="true"></i><a href="">期望工作</a></li>
+			<li><i class="fa fa-li fa-book fa-lg icon-aside" aria-hidden="true"></i><a href="">技能评价</a></li>
+			<li><i class="fa fa-li fa-cogs fa-lg icon-aside" aria-hidden="true"></i><a href="">自定义板块</a></li>
+		</ul>
+	</aside>
+	<main class="main" role="main">
+		<h1>CV-Generator: free for every programmer!</h1>
+		<section class="section1">
+			<h2>CV-Generator: free for every programmer!</h2>
+			<div class="qr">
+				<ul class="fa-ul">
+					<li><i class="fa fa-li fa-qrcode fa-lg "></i>qrcode</li>
+				</ul>
+			</div>
+		</section>
+		<section>
+			<div>
+				<form action="form.php" method="GET">
+					<label for="">datalist</label>
+					<input type="text" list="socail-media" size="50" name="sm-name" title="sm-title">
+					<!-- datalist:  <option value="Value">GitHub</option>-->
+					<!-- select :  <option value="GitHub">Value</option> -->
+					<datalist  id="socail-media">
+						<option value="https://github.com/?">GitHub</option>
+						<option value="https://www.linkedin.com/in/?">Linkedin</option>
+						<option value="https://www.facebook.com/?">Facebook</option>
+						<option value="https://twitter.com/?">Twitter</option>
+						<option value="https://www.pinterest.com/?/">Pinterest</option>
+						<option value="https://mva.microsoft.com/?">Microsoft MVA</option>
+						<option value="https://developer.mozilla.org/en-US/profiles/?">Mozilla MDN</option>
+						<option value="https://stackoverflow.com/users/?">Stack Overflow</option>
+						<option value="https://mozillians.org/zh-CN/u/?">mozillians</option>
+					</datalist>
+					<input type="submit" value="submit">
+				</form>
+			</div>
+		</section>
+	</main>
+	<footer class="footer" role="footer">
+		<address></address>
+	</footer>
+</body>
+</html>
